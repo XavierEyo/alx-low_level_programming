@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int count = 98, a = 1, b = 2, c, i;
+	int count = 98, a = b = 1, c, i;
 
 	for (i = 1; i < count; i++)
 	{
