@@ -7,9 +7,10 @@
  */
 int main(void)
 {
-	int count = 98, a = b = 1, c, i;
+	int count = 98, a, b, c, i;
+	a = b = 1
 
-	for (i = 1; i < count; i++)
+	for (i = 0; i < count; i++)
 	{
 		if (i <= 1)
 			c = i;
