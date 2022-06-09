@@ -7,4 +7,4 @@ void times_table(void);
 int print_sign(int n);
 int _isalpha(int c);
 int _abs(int);
-void print_times_table(int n)
+void print_times_table(int n);
