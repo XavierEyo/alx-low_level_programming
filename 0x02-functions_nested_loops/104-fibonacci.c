@@ -8,7 +8,7 @@
 int main(void)
 {
 	int count = 98, a, b, c, i;
-	a = b = 1
+	a = b = 1;
 
 	for (i = 0; i < count; i++)
 	{
