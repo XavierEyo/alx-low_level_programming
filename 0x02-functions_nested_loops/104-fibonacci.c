@@ -12,7 +12,7 @@ int main(void)
 	for (i = 0; i < count; i++)
 	{
 		if (i <= 1)
-			next_term = i;
+			c = i;
 		else
 		{
 			c = a + b;
