@@ -15,7 +15,7 @@ int main(void)
 			c = i;
 		else
 		{
-			b = a + a;
+			a++;
 			c = a + b;
 			a = b;
 			b = c;
