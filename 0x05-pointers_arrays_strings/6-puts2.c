@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * puts2 - prints one character out of 2
+ * @str: the string containing characters.
  */
 void puts2(char *str)
 {
@@ -8,7 +9,7 @@ void puts2(char *str)
 
 	while (str[index++])
 		len++;
-		
+
 	for (index = 0; index < len; index += 2)
 		_putchar(str[index]);
 
