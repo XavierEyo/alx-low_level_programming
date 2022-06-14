@@ -9,7 +9,7 @@
  *
  * Return: pointer to the destination @dest
  */
-char *_strcpy(char *dest, const char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int count = 0;
 	
