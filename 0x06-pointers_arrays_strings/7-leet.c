@@ -4,7 +4,7 @@
  * leet - encodes a string into 1337
  * @s: string to encode
  *
- * Return: address of s
+ * Return: the pointer to dest
  */
 char *leet(char *s)
 {
@@ -17,7 +17,7 @@ char *leet(char *s)
 	{
 		for (i = 0; i < 5; i++)
 		{
-			if (*(s + count) == low_letters[i] || *(s + count) == upo_letters[i])
+			if (*(s + count) == low_letters[i] || *(s + count) == upp_letters[i])
 			{
 				*(s + count) = numbers[i];
 				break;
