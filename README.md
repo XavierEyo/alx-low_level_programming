@@ -1,1 +1,1 @@
-This repository deals with learning C
+Tasks on variadic functions
