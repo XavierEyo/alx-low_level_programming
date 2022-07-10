@@ -8,7 +8,8 @@ void print_all(const char *const format, ...);
 
 /**
  * print_char - prints a character
- * @arg: A list of arguments pointing to the character to be printed
+ * @arg: A list of arguments pointing to the
+ * character to be printed
  */
 void print_char(va_list arg)
 {
@@ -20,7 +21,8 @@ void print_char(va_list arg)
 
 /**
  * print_int - prints an int
- * @arg: a list of arguments pointing to the integer to be printed
+ * @arg: a list of arguments pointing to the 
+ * integer to be printed
  */
 void print_int(va_list arg)
 {
@@ -32,7 +34,8 @@ void print_int(va_list arg)
 
 /**
  * print_float - prints a float
- * @arg: a list of arguments pointing to the float to be printed
+ * @arg: a list of arguments pointing to the 
+ * float to be printed
  */
 void print_float(va_list arg)
 {
@@ -44,7 +47,8 @@ void print_float(va_list arg)
 
 /**
  * print_string - prints a string
- * @arg: A list of arguments pointing to the string to be printed
+ * @arg: A list of arguments pointing to the 
+ * string to be printed
  */
 void print_string(va_list arg)
 {
@@ -63,11 +67,12 @@ void print_string(va_list arg)
 
 /**
  * print_all - prints anything, followed by a new line.
- * @format: A string of characters representing the argument types.
+ * @format: A string of characters representing 
+ * the argument types.
  * @...: A variable number of arguments to be printed
  *
- * Description:  any argument not of type char, int, float,
- * or char is printed
+ * Description:  any argument not of type char, .
+ * int, float, or char is ignored
  * if a string argument is NULL, (nil) is printed instead.
  */
 void print_all(const char *const format, ...)
