@@ -1,1 +1,1 @@
-Tasks on variadic functions
+Tasks on singly linked lists
