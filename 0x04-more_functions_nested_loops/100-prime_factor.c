@@ -10,14 +10,13 @@ int main(void)
 	long int n, pf;
 
 	n = 612852475143;
-	for (pf = 2; pf <= n; pf++)
+	for(pf = 2; pf <= n; pf++)
 	{
-		if (n % pf == 0)
+		while(n % i == 0)
 		{
-			n /= pf;
-			pf--;
+			printf("%d ", i);
+			n = n / i;
 		}
 	}
-	print("%ld\n", pf);
 	return (0);
 }
