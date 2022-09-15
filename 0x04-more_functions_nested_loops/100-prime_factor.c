@@ -12,11 +12,12 @@ int main(void)
 	n = 612852475143;
 	for(pf = 2; pf <= n; pf++)
 	{
-		while(n % i == 0)
+		while(n % pf == 0)
 		{
-			printf("%d ", i);
-			n = n / i;
+			printf("%d ", pf);
+			n = n / pf;
 		}
+		printf("\n");
 	}
 	return (0);
 }
