@@ -7,14 +7,14 @@
 
 int main(void)
 {
-	int n, pf;
+	long int n, pf;
 
 	n = 612852475143;
 	for(pf = 2; pf <= n; pf++)
 	{
 		while(n % pf == 0)
 		{
-			printf("%d ", pf);
+			printf("%ld ", pf);
 			n = n / pf;
 		}
 		printf("\n");
