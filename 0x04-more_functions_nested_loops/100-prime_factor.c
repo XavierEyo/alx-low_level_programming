@@ -10,9 +10,9 @@ int main(void)
 	long int n, pf;
 
 	n = 612852475143;
-	for(pf = 2; pf <= n; pf++)
+	for (pf = 2; n != 1; pf++)
 	{
-		while(n % pf == 0)
+		while (n % pf == 0)
 		{
 			printf("%ld ", pf);
 			n = n / pf;
